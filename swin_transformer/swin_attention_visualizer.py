@@ -49,7 +49,7 @@ MODEL_NAME         = "swin_base_patch4_window12_384"
 IMG_SIZE           = 384
 PATCH_SIZE         = 4
 WINDOW_SIZE        = 12
-COLORMAP           = "magma"
+COLORMAP           = "viridis"
 DEVICE             = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Feature-map size (patches) per stage for IMG_SIZE=384, PATCH_SIZE=4
