@@ -14,7 +14,7 @@ from load_data import LoadData
 
 import argparse
 
-COLORMAP = "magma"
+COLORMAP = "viridis"
 
 # Defines the ArgumentParser object
 parser = argparse.ArgumentParser()
