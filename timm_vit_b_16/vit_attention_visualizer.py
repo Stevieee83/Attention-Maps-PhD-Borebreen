@@ -49,7 +49,7 @@ IMG_SIZE           = 224
 PATCH_SIZE         = 16
 NUM_PATCHES        = (IMG_SIZE // PATCH_SIZE) ** 2   # 196
 GRID_SIZE          = IMG_SIZE // PATCH_SIZE           # 14
-COLORMAP           = "magma"
+COLORMAP           = "viridis"
 DEVICE             = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 SUPPORTED_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
